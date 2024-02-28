@@ -29,7 +29,7 @@ To get a local copy up and running, follow these simple steps:
 The app will start fetching user data from Facebook's Graph API at specified intervals, logging the output.
 
 Configuration
-You can configure the application behavior and logging level through the .env file:
+    You can configure the application behavior and logging level through the .env file:
 
 FACEBOOK_ACCESS_TOKEN: Your Facebook Graph API access token.
 LOG_LEVEL: The logging level for Winston ('info', 'warn', 'error').
