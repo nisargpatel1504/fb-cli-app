@@ -23,7 +23,7 @@ To get a local copy up and running, follow these simple steps:
 3. Create a .env file in the root directory and add your Facebook Graph API access token:
    -FACEBOOK_ACCESS_TOKEN=YourAccessTokenHere
 
-4.Start program
+4. Start program
   -npm start
 
 The app will start fetching user data from Facebook's Graph API at specified intervals, logging the output.
