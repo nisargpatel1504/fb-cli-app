@@ -14,22 +14,22 @@ To get a local copy up and running, follow these simple steps:
 
 ### Installation
 
-1. Clone the repository:
-   -git clone https://your-repository-url/fb-cli-app.git
+1. Clone the repository:<br>
+   -git clone https://your-repository-url/fb-cli-app.git<br>
    -cd fb-cli-app
    
 2. npm install
 
-3. Create a .env file in the root directory and add your Facebook Graph API access token:
+3. Create a .env file in the root directory and add your Facebook Graph API access token:<br>
    -FACEBOOK_ACCESS_TOKEN=YourAccessTokenHere
 
-4. Start program
+4. Start program<br>
   -npm start
 
 The app will start fetching user data from Facebook's Graph API at specified intervals, logging the output.
 
-Configuration
+Configuration<br>
     You can configure the application behavior and logging level through the .env file:
-
-FACEBOOK_ACCESS_TOKEN: Your Facebook Graph API access token.
+<br>
+FACEBOOK_ACCESS_TOKEN: Your Facebook Graph API access token.<br>
 LOG_LEVEL: The logging level for Winston ('info', 'warn', 'error').
